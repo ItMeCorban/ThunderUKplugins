@@ -1,0 +1,10 @@
+name: Thunder-UKhardcore
+main: me.corbanj_6534.ThunderUKhardcore
+version: 1.0
+commands:
+   ThunderUKhc:
+      description: Insures the Thunder-UK Hardcore plugin is functional
+      usage: /<command>
+permissions:
+    thunderuk.nodeath:
+        default: false

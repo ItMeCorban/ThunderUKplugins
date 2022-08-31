@@ -1,0 +1,19 @@
+name: ThunderUKAntiBlock
+main: me.corbanj_6534.AntiBlock
+version: 1.0
+commands:
+   thunderukblocktest:
+      description: Tests the antiblock plugin
+      usage: /<command>
+   thunderukbcblocktest:
+      description: Tests the antiblock plugin for everyone!
+      usage: /<command>
+permissions:
+   thunderuk.place.tnt:
+      default: false
+   thunderuk.place.water:
+      default: false
+   thunderuk.place.lava:
+      default: false
+   thunderuk.place.bedrock:
+      default: false

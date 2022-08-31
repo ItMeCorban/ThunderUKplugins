@@ -1,0 +1,16 @@
+name: ThunderUKjoinleave
+main: me.bukkit.corbanj_6534.Main
+version: 1.0
+commands:
+   thunderukjltest:
+      description: Insures the Thunder-UK Join/Leave is functioning
+      usage: /<command>
+permissions:
+   thunderuk.corban:
+      default: false
+   thunderuk.devlin:
+      default: false
+   thunderuk.ragie:
+      default: false
+   thunderuk.charlotte:
+      default: false

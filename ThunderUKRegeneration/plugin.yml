@@ -1,0 +1,58 @@
+name: ThunderUKRegeneration
+main: main
+version: maven-version-number
+description: Become a Time Lord and regenerate!
+softdepend: [Vault]
+commands:
+    tukr:
+        aliases: [ThunderUKRegeneration]
+        description: Base command for Thunder-UK Regeneration.
+        view:
+            description: View a player's regneration info.
+            permission: ThunderUKRegeneration.pr.view
+        set:
+            description: Set a player's regeneration count.
+            permission: ThunderUKRegeneration.pr.set
+        force:
+            description: Force a player to regenerate.
+            permission: ThunderUKRegeneration.pr.force
+        block:
+            description: Set a player's regeneration block.
+            permission: ThunderUKRegeneration.pr.block
+        reload:
+            description: Reload the configuration .yml files.
+            permission: ThunderUKRegeneration.pr.reload
+    regen:
+        aliases: [regenerate]
+        description: Become a Timelord and regenerate!
+        force:
+            description: Force regeneration.
+            permission: ThunderUKRegeneration.regen.force
+        block:
+            description: Block your next regeneration.
+            permission: ThunderUKRegeneration.regen.block
+permissions:
+    ThunderUKRegeneration.pr.view:
+        description: View a player's regneration info.
+        default: op
+    ThunderUKRegeneration.pr.set:
+        description: Set a player's regeneration count.
+        default: op
+    ThunderUKRegeneration.pr.force:
+        description: Force a player to regenerate.
+        default: op
+    ThunderUKRegeneration.pr.block:
+        description: Set a player's regeneration block.
+        default: op
+    ThunderUKRegeneration.pr.reload:
+        description: Reload the configuration.
+        default: op
+    ThunderUKRegeneration.regen.timelord:
+        description: This player is a Time Lord, and can regenerate on death.
+        default: op
+    ThunderUKRegeneration.regen.force:
+        description: Allows this player to force regeneration.
+        default: op
+    ThunderUKRegeneration.regen.block:
+        description: Allows this player to block their next regneration.
+        default: op

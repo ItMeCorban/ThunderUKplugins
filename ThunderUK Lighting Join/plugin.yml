@@ -1,0 +1,7 @@
+name: ThunderUKLighting
+main: me.bukkit.mcmaniac52.Main
+version: 1.0
+commands:
+   thukljtest:
+      description:  Test if Thunder-UK lightning strike is working.
+      usage: /<command>

@@ -1,0 +1,34 @@
+name: ThunderUKpack1
+main: me.corbanj_6534.pack1
+version: 1.0
+commands:
+   ThunderUKtest:
+      description: Insures the Thunder-UK plugin is functional
+      usage: /<command>
+   ttp:
+      description: Teleport to a player
+      usage: /<command>
+   ttploc:
+      description: Teleport to a location
+      usage: /<command>
+   thunderuktptest:
+      description: Checks if the plugin is working
+      usage: /<command>
+   ttfakeoffline:
+      description: Fake leaving the server
+      usage: /<command> 
+permissions:
+    thunderuk.tp.player:
+      default: false
+    thunderuk.tp.findlocation:
+      default: false
+    thunderuk.fakeleave:
+      default: false
+    thunderuk.place.tnt:
+      default: false
+    thunderuk.place.water:
+      default: false
+    thunderuk.place.lava:
+      default: false
+    thunderuk.place.bedrock:
+      default: false

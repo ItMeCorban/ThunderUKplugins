@@ -1,0 +1,13 @@
+name: ThunderUKLocalBC
+main: me.corbanj_6534.LocalBC
+version: 1.0
+commands:
+   thunderukbc:
+      description: Sends a local broadcast
+      usage: /<command>
+   thunderukbctest:
+      description: Tests the Local BC plugin
+      usage: /<command> 
+permissions:
+    thunderuk.bc:
+        default: false
