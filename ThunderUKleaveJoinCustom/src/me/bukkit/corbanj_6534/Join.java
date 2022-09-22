@@ -36,6 +36,10 @@ public class Join implements Listener {
 		else if (player.hasPermission("thunderuk.charlotte")) {
 			j.setJoinMessage(ChatColor.LIGHT_PURPLE + "" + ChatColor.BOLD + "Oh look, it's that splecial person, " + ChatColor.BOLD + "" + ChatColor.DARK_PURPLE + "ghostnimbus11287" + ChatColor.BOLD + "" + ChatColor.LIGHT_PURPLE + "!");
 		}
+		}
+		else if (player.hasPermission("thunderuk.brett")) {
+			j.setJoinMessage(ChatColor.LIGHT_PURPLE + "" + ChatColor.BOLD + "Brick, " + ChatColor.BOLD + "" + ChatColor.GREEN + "ghostnimbus11287" + ChatColor.BOLD + "" + ChatColor.GREEN + "!");
+		}		
 		else if (player.hasPlayedBefore() == false) {
 			j.setJoinMessage(ChatColor.BOLD + "" + ChatColor.GOLD + "[" + ChatColor.AQUA + Bukkit.getOnlinePlayers().length + ChatColor.GOLD + "]" + ChatColor.BOLD + "EVERYONE welcome " + ChatColor.DARK_AQUA + "" + ChatColor.BOLD + player.getName() + ChatColor.GOLD + "" + ChatColor.BOLD + "" + ChatColor.YELLOW + "" + ChatColor.BOLD + " Thunder-UK");
 		}
